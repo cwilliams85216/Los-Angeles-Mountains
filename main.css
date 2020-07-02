@@ -1,0 +1,534 @@
+body{
+    background-image: url(images/home2.png);
+}
+.nav-link{
+    text-decoration: underline; 
+}
+
+#logo-font{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500; 
+    font-size: 70px;
+    color: rgb(77, 77, 77);
+    letter-spacing: 2px;
+    
+}
+.mountains{
+    letter-spacing: 4.5px;
+    color:#2b344e;
+    
+}
+
+.home-title{
+    margin: auto;
+    text-align: left; 
+    margin-left: 3em; 
+    margin-top: 14em; 
+}
+.home-page{
+    margin-bottom: 20em;
+}
+
+
+
+/*Logo for second navbar*/
+.second-navbar{
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.navbrand-logo{
+    font-size: 16px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 0px;
+}
+.lm{
+    padding-left:0px;
+    padding-top: 5px;
+}
+
+
+/* History Page*/
+.history-section{
+    background-image: url(images/history.png);
+    margin-top: -4.9em;
+    
+}
+#number-font{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 90px;
+    margin: 80px 0px 0px 15px;
+    color: #2b2d325e;
+}
+.history-title{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #2b344ed0;
+    font-size:33px;
+    position: absolute;
+    margin-top:43px;
+
+}
+.history-title::after{
+    content:'';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background:#2b2d325e;
+}
+.history-info{
+    font-size: 12px;
+    margin-left: 5.5em;
+    
+}
+.carousel-container{
+    background-color: #63769daf;
+    margin-top: 15em;
+    margin-bottom: 8em;
+}
+.carousel-item{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 5.5em;
+
+}
+/*Team page*/
+
+.team-bg{
+    background-image: url(images/peak2.jpg);
+    background-size: 50em 80em;
+    background-repeat: no-repeat;
+}
+.number-two{
+    background-color: #ffffff;
+    padding-bottom:3em;
+    margin-top: -5em;
+}
+#number-font2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 90px;
+    margin: 80px 0px 0px 15px;
+    color: #2b2d325e;
+}
+.team-title{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #2b344ed0;
+    font-size:33px;
+    position: absolute;
+    margin-top:43px;
+
+}
+.team-title::after{
+    content:'';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background:#2b2d325e;
+}
+.team-info{
+    font-size: 12px;
+    margin-left: 5.5em;
+    
+}
+.climb-section{
+    color: #7289b6dc;
+    font-family:'Bebas Neue', cursive; 
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 1.4em;
+    text-decoration: none;
+}
+.climb-section.active{
+    background-color: #7289b6dc;
+    color:#2b344ed0;
+    text-decoration: underline;
+}
+nav{
+    background-color:#2b344eec;
+}
+.nav-schedule{
+    background-color: #f0f4fbdc;
+    margin: 15.5em 0em 0em 0em;
+}
+.table-title{
+    font-family:'Bebas Neue', cursive; 
+    font-size:35px;
+    font-weight: 700;
+    color:#2b344eec;
+    margin-top: 8em;
+}
+td{
+    padding-right: 1em;
+}
+
+
+/*footer*/
+.footer{
+    margin-top: 20em;
+}
+.footer-img{
+    margin-top:10px;
+    opacity: 10;
+    margin-left: 5px;
+}
+.footer-navbar{
+    margin-right: -10px;
+    padding-right: 0px;
+    
+}
+.footer-logo{
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 0px;
+    color: #7289b67e;
+}
+.lm{
+    padding-left:0px;
+    padding-top: 5px;
+}
+.copyright{
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    margin-left: -0.4em;
+    margin-top: 2.1em;
+    color: #7289b67e;
+}
+
+/*Tablet Query*/
+
+
+@media only screen and (min-width: 600px) {
+    
+    body{
+    background-repeat: no-repeat;
+    }
+
+    .navbar{
+        width:89%;
+    }
+    #logo-font{
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 500; 
+        font-size: 100px;
+        color: rgb(77, 77, 77);
+        letter-spacing: 2px;
+        margin-left: 1em;
+        
+    }
+
+
+    /* History Page*/
+    .history-section{
+        margin-left: -1em;
+        
+    }
+  
+    .history-info{
+        font-size: 16px;
+        margin-left: 5.5em;
+        
+    }
+
+    .carousel-item{
+        width: 250px;
+        height: 200px;
+        margin-top: 15px;
+        margin-left: 12.5em;
+    
+    }
+    /*Team page*/
+   
+    .team-info{
+        font-size: 16px;
+        margin-left: 5.5em;
+        margin-right: 3em;
+        
+    }
+    .nav-schedule{
+        background-color: #f0f4fbdc;
+        margin: 15.5em -5em 0em 0em;
+    }
+    .table-title{
+        font-size: 46px;
+    }
+    td{
+        padding-right: 1em;
+        padding-bottom: 1em;
+    }
+    .schedule-content{
+        font-size:20px;
+    }
+    
+    
+    /*footer*/
+    .footer-nav{
+        width: 100%;
+    }
+    
+    .copyright{
+        font-size: 18px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 100;
+        margin-left: 6em;
+        margin-top: 1.1em;
+        color: #7289b67e;
+    }
+  }
+
+  /*Desktop Query*/
+  
+  @media only screen and (min-width: 1024px) {
+body{
+    background-repeat: no-repeat;
+    }
+
+    #logo-font{
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 500; 
+        font-size: 150px;
+        color: rgb(77, 77, 77);
+        letter-spacing: 2px;
+        margin-left: 1em;
+    }
+    .home-links, .second-links{
+        font-size: 20px;
+        margin-left: 26em;
+    }
+    .home-page{
+        margin-bottom: 12em;
+    }
+ 
+    /* History Page*/
+    .history-section{
+        margin-left: 2em;
+
+    }
+    .second-navbar{
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    #number-font{
+        font-family: 'Oswald', sans-serif;
+        font-weight: 800;
+        font-size: 140px;
+        margin: 80px 0px 0px 15px;
+        color: #2b2d325e;
+    }
+    .history-title{
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #2b344ed0;
+        font-size:60px;
+        position: absolute;
+        margin-top:60px;
+    
+    }
+    .history-title::after{
+        content:'';
+        display: block;
+        width: 20px;
+        height: 20px;
+        background:#2b2d325e;
+    }
+    .history-info{
+        font-size: 20px;
+        margin-left: 5.5em;
+        
+    }
+  
+    .carousel-item{
+        width: 450px;
+        height: 200px;
+        margin-top: 15px;
+        margin-left: 15.5em;
+    
+    }
+    /*Team page*/
+
+    .team-bg{
+        background-size: 70em 87em;
+        background-repeat: no-repeat;
+    }
+    #number-font2{
+        font-family: 'Oswald', sans-serif;
+        font-weight: 800;
+        font-size: 140px;
+        margin: 80px 0px 0px 50px;
+        color: #2b2d325e;
+    }
+
+    .team-title{
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #2b344ed0;
+        font-size:60px;
+        position: absolute;
+        margin-top:60px;
+    
+    }
+    .team-title::after{
+        content:'';
+        display: block;
+        width: 20px;
+        height: 20px;
+        background:#2b2d325e;
+    }
+    .team-info{
+        font-size: 12px;
+        margin-left: 9.5em;
+        
+    }
+    .team-info{
+        font-size: 20px;
+        margin-left: 7.5em;
+        margin-right: 3em;
+        
+    }
+    .climb-section{
+        color: #7289b6dc;
+        font-family:'Bebas Neue', cursive; 
+        font-size: 34px;
+        font-weight: 700;
+        margin-left: 1.4em;
+        text-decoration: none;
+    }
+    .nav-schedule{
+        background-color: #f0f4fbdc;
+        margin: 15.5em -5em 0em 0em;
+    }
+    .table-title{
+        font-size: 50px;
+    }
+    td{
+        padding-right: 1em;
+        padding-bottom: 1em;
+    }
+    .schedule-content{
+        font-size:24px;
+    }
+    
+    
+    /*footer*/
+    .footer-nav{
+        width: 100%;
+    }
+    
+    .copyright{
+        font-size: 24px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 100;
+        margin-left: 12em;
+        margin-top: 1.1em;
+        color: #7289b67e;
+    }
+    .footer-navbar{
+        margin-right: -59px;
+        padding-right: 0px;
+    }
+    
+}
+
+@media only screen and (min-width: 1124px) {
+    body{
+        background-repeat: no-repeat;
+        }
+        .home-logo{
+            width: 60px;
+            height: 60px;
+        }
+        #logo-font{
+            font-family: 'Bebas Neue', cursive;
+            font-weight: 500; 
+            font-size: 150px;
+            color: rgb(77, 77, 77);
+            letter-spacing: 2px;
+            margin-left: 3em;
+        }
+        .home-links, .second-links{
+            font-size: 20px;
+            margin-left: 46em;
+        }
+        
+        /*Logo for second navbar*/
+        .logo2{
+            width: 60px;
+            height: 60px;
+        }
+        .navbrand-logo{
+            font-size: 20px;
+            font-family: 'Bebas Neue', cursive;
+            font-weight: 600;
+            letter-spacing: 1px;
+            padding-left: 0px;
+        }
+        
+        /* History Page*/
+        .history-section{
+            margin-left: 13em;
+    
+        }
+       
+        .carousel-item{
+            width: 450px;
+            height: 200px;
+            margin-top: 15px;
+            margin-left: 20.5em;
+        
+        }
+        /*Team page*/
+    
+        .team-bg{
+            background-size: 95em 87em;
+            background-repeat: no-repeat;
+        }
+        #number-font2{
+            font-family: 'Oswald', sans-serif;
+            font-weight: 800;
+            font-size: 140px;
+            margin: 80px 0px 0px 250px;
+            color: #2b2d325e;
+        }
+     
+        .team-info{
+            font-size: 20px;
+            margin-left: 16.5em;
+            margin-right: 3em;
+            
+        }
+        
+        /*footer*/
+        .footer-nav{
+            width: 100%;
+        }
+        .footer-img{
+            margin-left: 7em;
+        }
+        .copyright{
+            font-size: 24px;
+            font-family: 'Oswald', sans-serif;
+            font-weight: 100;
+            margin-left: 24em;
+            margin-top: 1.1em;
+            color: #7289b67e;
+        }
+        .footer-navbar{
+            margin-right: -59px;
+            padding-right: 0px;
+        }
+        
+    }
+        
+    
+    
